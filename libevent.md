@@ -270,17 +270,14 @@ struct evconnlistener *evconnlistener_new_bind(struct event_base *base, evconnli
 
 **使用libevent 实现管道的读写**
 
-​	/code/event_pipe
+​	event_pipe
 
 **带buffer的 bufferevent实现 C/S模型**
 
-​	/code/bufferevent_cs
+​	cd-bufferevent
 
-**B/S模型：bs-epoll-http-server**
 
-​	/code/epoll_http_server
+**B/S模型：bs-bufferevent-http-server**
 
-**B/S模型：bs-libevent-http-server**
-
-​	/code/libevent_http_server
+​	bs-bufferevent-http-server
 
